@@ -1,0 +1,85 @@
+/* Effect Text Movie Selection */
+#eftext {
+    background: #363227 -webkit-gradient(linear, left top, right top,
+    from(#363227), to(#363227), color-stop(0.5, #ffffff)) 0 0 no-repeat;
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+ 
+    -webkit-animation: shine 2s infinite;
+    -webkit-background-clip: text;
+    -webkit-background-size: 300px;
+}
+ 
+@-webkit-keyframes shine {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+        
+/* Button Hover */
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.trailer {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    width: 40%;
+}
+.trailer:hover {
+    background-color: #555555;
+    color: white;
+}
+.detail {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    width: 50%;
+}
+.detail:hover {
+    background-color: #555555;
+    color: white;
+}
+.ticket {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    width: 94%;
+}
+.ticket:hover {
+    background-color: #555555;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
